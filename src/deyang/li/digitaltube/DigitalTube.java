@@ -200,24 +200,24 @@ public class DigitalTube extends JComponent {
 			break;
 		case "A":
 		case "a":
-			colors[0] = Color.gray;
-			colors[1] = Color.gray;
-			colors[2] = Color.gray;
+			colors[0] = Color.red;
+			colors[1] = Color.red;
+			colors[2] = Color.red;
 			colors[3] = Color.red;
-			colors[4] = Color.gray;
-			colors[5] = Color.gray;
+			colors[4] = Color.red;
+			colors[5] = Color.red;
 			colors[6] = Color.gray;
 			drawDigital(colors, g2d);
 			break;
 		case "B":
 		case "b":
 			colors[0] = Color.gray;
-			colors[1] = Color.gray;
+			colors[1] = Color.red;
 			colors[2] = Color.gray;
 			colors[3] = Color.red;
-			colors[4] = Color.gray;
-			colors[5] = Color.gray;
-			colors[6] = Color.gray;
+			colors[4] = Color.red;
+			colors[5] = Color.red;
+			colors[6] = Color.red;
 			drawDigital(colors, g2d);
 			break;
 		case "C":
@@ -235,11 +235,11 @@ public class DigitalTube extends JComponent {
 		case "d":
 			colors[0] = Color.gray;
 			colors[1] = Color.gray;
-			colors[2] = Color.gray;
+			colors[2] = Color.red;
 			colors[3] = Color.red;
-			colors[4] = Color.gray;
-			colors[5] = Color.gray;
-			colors[6] = Color.gray;
+			colors[4] = Color.red;
+			colors[5] = Color.red;
+			colors[6] = Color.red;
 			drawDigital(colors, g2d);
 			break;
 		case "E":
